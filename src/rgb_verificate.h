@@ -12,10 +12,10 @@ example:
 
   if (53 < red && red < 69 &&  40 < green && green < 60 && 23 < blue && blue < 35)
     {
-      Serial.println("Azul");
+      Serial.println("Blue");
       lcd.setBacklight(HIGH);
       lcd.setCursor(5,1);
-      lcd.print("Azul");
+      lcd.print("Blue");
       delay(1000);
     }
  
