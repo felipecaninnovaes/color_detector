@@ -1,6 +1,6 @@
 #include <Arduino.h>
-#include <../lib/display.h>
-#include <../lib/console.h>
+#include <../modules/display.h>
+#include <../modules/console.h>
 // product name display screen    
 void Inicio (){
     lcd.clear();

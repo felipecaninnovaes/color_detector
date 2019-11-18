@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include <../lib/boot_logo.h>
-#include <../lib/color.h>
-#include <../lib/rgb_verificate.h>
+#include <../modules/boot_logo.h>
+#include <../modules/color.h>
+#include <../modules/rgb_verificate.h>
 
 void setup() {
   //start port comunication 
