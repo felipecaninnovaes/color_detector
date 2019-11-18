@@ -1,8 +1,7 @@
 #include <Arduino.h>
-#include <console.h>
-#include <inicio.h>
-#include <color.h>
-#include <rgb_verificate.h>
+#include <../lib/inicio.h>
+#include <../lib/color.h>
+#include <../lib/rgb_verificate.h>
 
 void setup() {
   //start port comunication 
@@ -44,8 +43,8 @@ void loop()
   lcd.setCursor (5,1);
   lcd.print("      ");
   lcd.setCursor (5,1);
-
-  color(); //start color detector rotine #Fcngit
+  //start color detector rotine #Fcngit
+  color(); 
   //show values detected on serial monitor
   Serial.print("Vermelho :");
   Serial.print(red, DEC);
