@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <../lib/inicio.h>
+#include <../lib/boot_logo.h>
 #include <../lib/color.h>
 #include <../lib/rgb_verificate.h>
 
